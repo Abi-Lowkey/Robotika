@@ -1,0 +1,36 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2883207188386529 0.12294349323766769 -0.9496083722034478 2.372093735415007
+  position 0.8560348989917013 0.9516188956599106 0.8311154252076929
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 -0.261795307179586
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 175.99366879643208
+  hidden position_0_1 198.1150191180318
+  hidden translation_1 0 0.025999999999999853 0.02
+  hidden rotation_1 0 1 0 0.06448019540365084
+  hidden translation_2 0 -0.02599999999999981 0.02
+  hidden rotation_2 0 -0.9999999999999999 0 2.9469107117149713
+  translation 0.344282 0.013873 -6.39561e-05
+  rotation -6.383949486766146e-06 -0.0004009339677671501 0.9999999196055962 3.10975
+  controller "stop_with_proximity"
+}
+Wall {
+  size 0 0 7.1
+}
