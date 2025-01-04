@@ -1,0 +1,19 @@
+Command Chapter 2 - Getting started with ROS programming
+roscore
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+cd ..
+rosrun mastering_ros_demo_pkg demo_topic_publisher
+rosrun mastering_ros_demo_pkg demo_topic_subscriber
+
+
+Command Chapter 3 - Working with ROS for 3d Modelling
+roslaunch mastering_ros_robot_description_pkg view_demo.launch
+roslaunch mastering_ros_robot_description_pkg view_arm.launch
+roslaunch mastering_ros_robot_description_pkg view_mobile_robot.launch
+
+
+Command Chapter 4 - Simulating Robots using ROS and Gazebo
+roslaunch seven_dof_arm_gazebo seven_dof_arm_gazebo_control.launch
+rostopic pub -s /seven_dof_arm/joint4_position_controller/command std_msgs/float64 "data: 1.0"
