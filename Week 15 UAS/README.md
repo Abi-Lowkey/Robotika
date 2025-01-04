@@ -2,6 +2,7 @@ Link playlist video ROS Chapter 1 - 4:
 https://www.youtube.com/playlist?list=PLLApFikBLJ_5rF2DbWlmyh0FHU_ddXNac
 
 **Chapter yang Telah Diselesaikan**
+
 **Chapter 1: Pengenalan ROS**
 Mempelajari dasar-dasar ROS, sistem komunikasi menggunakan publisher dan subscriber, serta keuntungan dari sistem open-source ROS.
 
